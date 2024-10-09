@@ -64,7 +64,7 @@ createAccountBtn.addEventListener('click', function (e) {
         formData.append('phoneNumber', phoneNumber.value);
 
         // Send form data to Google Sheets via Google Apps Script Web App
-        fetch('https://script.google.com/macros/s/AKfycbyhEGb57_rvguSSjzGbyAExk5CtuM0XsnedvT6llrCLaoEedYvoMWJxMq6XU2S5qVTQ/exec', {
+        fetch('https://script.google.com/macros/s/AKfycbyO62widt-ZE1x1nmW8jqr_aT7zFay3Whuc03WyUZFpbcS1QHWj4iiHl38UmR7T-uVr/exec', {
             method: 'POST',
             body: formData,
         })
